@@ -400,3 +400,7 @@ img {
 .other-style:focus {
   background-color: #31d0aa;
 }
+.index-style {
+  position: relative;
+  color: var(--blue2);
+}
