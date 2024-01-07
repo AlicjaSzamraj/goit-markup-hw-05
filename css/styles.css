@@ -403,4 +403,13 @@ img {
 .index-style {
   position: relative;
   color: var(--blue2);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.index-style::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  background-color: var(--blue2);
+  border-radius: 2px;
 }
