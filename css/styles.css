@@ -412,4 +412,5 @@ img {
   bottom: -1px;
   background-color: var(--blue2);
   border-radius: 2px;
+  height: 4px;
 }
