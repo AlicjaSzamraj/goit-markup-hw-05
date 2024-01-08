@@ -330,6 +330,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .link-style:hover {
   background-color: var(--blue2);
@@ -361,6 +362,8 @@ img {
   justify-content: center;
   color: #8e8f99;
   align-items: center;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .link-style-customer:hover {
   border-color: var(--blue2);
