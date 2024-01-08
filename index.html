@@ -48,9 +48,7 @@
               >
             </li>
             <li>
-              <a
-                class="address-points link contacts"
-                href="tel:+110001111111"
+              <a class="address-points link contacts" href="tel:+110001111111"
                 >+11 (000) 111-11-11</a
               >
             </li>
@@ -64,7 +62,9 @@
           <h1 class="header-section-one">
             Effective Solutions for Your Business
           </h1>
-          <button class="header-button" type="button">Order Service</button>
+          <button class="header-button" type="button" data-modal-open>
+            Order Service
+          </button>
         </div>
       </section>
       <section class="section">
@@ -417,6 +417,11 @@
         </div>
       </div>
     </footer>
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button type="button" class="close-btn" data-modal-close>X</button>
+      </div>
+    </div>
     <script src="./js/modal.js"></script>
   </body>
 </html>
