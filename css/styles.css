@@ -41,14 +41,17 @@ img {
 }
 .link-portfolio {
   display: block;
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.link-portfolio:hover {
+.link-portfolio:hover .p-overlay {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  transform: translateY(0%);
 }
-.link-portfolio:focus {
+.link-portfolio:focus .p-overlay {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  transform: translateY(0%);
 }
 .studio {
   color: var(--dark_grey1);
@@ -501,11 +504,4 @@ img {
 .overlay {
   position: relative;
   overflow: hidden;
-  box-shadow: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.overlay:hover .p-overlay {
-  transform: translateY(0%);
-}
-.overlay:focus .p-overlay {
-  transform: translateY(0%);
 }
