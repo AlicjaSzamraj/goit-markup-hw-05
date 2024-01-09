@@ -501,4 +501,11 @@ img {
 .overlay {
   position: relative;
   overflow: hidden;
+  box-shadow: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.overlay:hover .p-overlay {
+  transform: translateY(0%);
+}
+.overlay:focus .p-overlay {
+  transform: translateY(0%);
 }
