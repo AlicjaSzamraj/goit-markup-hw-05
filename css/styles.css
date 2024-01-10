@@ -148,9 +148,11 @@ img {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  margin-top: 8px;
 }
 .centre {
   text-align: center;
+  margin-bottom: 8px;
 }
 .header-section-three {
   font-size: 36px;
